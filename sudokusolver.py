@@ -77,7 +77,7 @@ def solve_sudoku(sudoku, rendersudoku, visualize):
             if solve_sudoku(sudoku, rendersudoku, visualize):
                 return True
             sudoku[y][x] = 0
-            rendersudoku[y][x] = 0
+    rendersudoku[y][x] = 0
     return False
 
 def main():
